@@ -21,8 +21,6 @@ try:
     from pyspark import SparkConf
     from pyspark import SparkContext
     from pyspark.sql import SparkSession
-    from pyspark.mllib.clustering import KMeans
-    from pyspark.mllib.clustering import KMeansModel
 except ImportError:
     print("Unable to find Spark libraries.")
     exit(-1)
